@@ -21,7 +21,7 @@ app.post('/cp', function(req, res, next) {
 
   } else {
     res.status(401).json({ success: false, message: "no sathyness to pass!!" });
-    console.log('denied user ' + username + "they had enough sathyness to pass" );
+    console.log('denied user ' + "they had enough sathyness to pass" );
   };
 
 
